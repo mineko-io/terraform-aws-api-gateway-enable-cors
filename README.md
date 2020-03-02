@@ -20,8 +20,7 @@ Sharing (CORS) preflight requests.
 
 ``` hcl
 module "cors" {
-  source = "github.com/squidfunk/terraform-aws-api-gateway-enable-cors"
-  version = "0.2.0"
+  source = "github.com/mineko-io/terraform-aws-api-gateway-enable-cors"
 
   api_id          = "<api_id>"
   api_resource_id = "<api_resource_id>"
